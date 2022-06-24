@@ -14,9 +14,6 @@ min_sig= -delta_sig*(1-ratio_sig)
 j=0
 k=0
 
-
-
-
 def sigma_correction(x): # no sigma function, only used to normalize values
     x=x-min(x)
     x=(max_sig-min_sig)*(x/max(x)) 
